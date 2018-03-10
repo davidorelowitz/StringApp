@@ -7,13 +7,13 @@ public class App {
     public static void main(String[] args) {
 
         String str = "!!!!!Hello World!!!!!";
-        StringServer server = new StringServer();
+        StringServer stringServer = new StringServer();
 
         System.out.println(str);
-        System.out.println(server.toReverse(str));
-        System.out.println(server.toLower(str));
-        System.out.println(server.toUpper(str));
-        System.out.println(server.toRemoveSpaces(str));
+        System.out.println("Reverse - " + stringServer.toReverse(str));
+        System.out.println("To lower - " + stringServer.toLower(str));
+        System.out.println("To Upper - " + stringServer.toUpper(str));
+        System.out.println("Remove Spaces - " + stringServer.toRemoveSpaces(str));
 
     }
 }
