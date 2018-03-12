@@ -6,6 +6,8 @@ package com.david;
 public class App {
     public static void main(String[] args) {
 
+        System.out.println("Test app for StringServer");
+
         String str = "!!!!!Hello World!!!!!";
         StringServer stringServer = new StringServer();
 
